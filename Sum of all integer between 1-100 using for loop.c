@@ -2,13 +2,15 @@
 int main()
 {
     int n,sum;
-    sum= 0;
+    sum=0;
+    n=1;
 
-    for(n=1;n<=100;n=n+1)
-    {
-        sum=sum+n;
-    }
-
+    while(n<=100)
+        {
+            sum=sum+n;
+            n=n+1;
+        }
     printf("Summation is: %d",sum);
+
     return 0;
 }
