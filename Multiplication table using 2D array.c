@@ -1,21 +1,21 @@
 #include<stdio.h>
-#define Row 20
-#define Col 20
+#define Row 25
+#define Col 25
 int main()
 {
     int r,c;
-    int mul[Row] [Col];
+    int mul[Row][Col];
 
-    printf("\t\t====================\n");
-    printf("\t\tMULTIPLICATION TABLE\n");
-    printf("\t\t====================\n\n");
+    printf("\t\t\t\t====================\n");
+    printf("\t\t\t\tMULTIPLICATION TABLE\n");
+    printf("\t\t\t\t====================\n\n");
     printf("     ");
     for(int j=1;j<=Col;j++)
     {
 
         printf("%4d",j);
     }
-    printf("\n============================");
+    printf("\n========================================================================================");
     printf("=================\n");
 
     for(int i=0;i<Row;i++)
